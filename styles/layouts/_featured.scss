@@ -1,0 +1,38 @@
+.featured{
+    background-color: #222;
+    color: #fff;
+    padding: 5rem 0;
+
+    h1{
+        margin: 0;
+        font-weight: normal;
+        font-size: 5rem;
+    }
+    p{
+        color: #aaa;
+        font-size: 2rem;
+        
+    }
+}
+
+.featured_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+
+    .column{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+
+    img{
+        width: 50%;
+    }
+
+    .buttons{
+        display: flex;
+        gap: 1rem;
+    }
+}
